@@ -1,0 +1,7 @@
+‘’‘python的第一节课练习’‘’
+rmb_str_value = input('请输入人民币（CNY）金额：')
+‘’‘eval() 函数用来执行一个字符串表达式，并返回表达式的值’‘’
+rmb_value = eval(rmb_str_value)
+usd_vs_rmb = 6.77
+usd_value = rmb_value / usd_vs_rmb
+print('美元USD的值：',usd_value)
